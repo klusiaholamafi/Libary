@@ -1287,5 +1287,8 @@ function SolarisLib:New(Config)
         return SectionHold
     end 
     return TabHolder
-end    
+end   
+function SolarisLib:Destroy()
+	SolarisLib:Destroy()
+end
 return SolarisLib
